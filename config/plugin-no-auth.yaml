@@ -1,0 +1,13 @@
+info:
+  name:
+    human: 'test_plugin'
+    model: 'test_plugin'
+  description:
+    human: 'Human description of the test plugin.'
+    model: 'Model description of the test plugin.'
+  logo_url: '/public/logo.png'
+  contact_email: '@contact'
+  legal_info_url: '/legal'
+auth:
+  type: 'none'
+
