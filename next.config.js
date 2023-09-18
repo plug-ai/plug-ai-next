@@ -1,13 +1,7 @@
 /** @type {import('next').NextConfig} */
 const { withPlugAI } = require('@plug-ai/plug-ai-core');
 
-const config = {
-    output: 'export',
-}
-
-module.exports = {
-    ...config, 
-    ...withPlugAI({
+module.exports = withPlugAI({
     async redirects() {
         return [];
     },
@@ -24,5 +18,4 @@ module.exports = {
             },
         ];
     },
-})
-}
+});
