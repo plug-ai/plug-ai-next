@@ -1,5 +1,5 @@
 import { PluginConfigPath, getApiDocs } from '@/ai-plugin';
-import { Plugin } from 'plug-ai-core';
+import { Plugin } from '@plug-ai/plug-ai-core';
 
 const aiplug = new Plugin({
     configFilePath: PluginConfigPath.NO_AUTH,

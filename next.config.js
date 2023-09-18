@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const { withPlugAI } = require('plug-ai-core');
+const { withPlugAI } = require('@plug-ai/plug-ai-core');
 
 module.exports = withPlugAI({
     async redirects() {

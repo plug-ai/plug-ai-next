@@ -11,6 +11,7 @@
         "prettier": "prettier . --write"
     },
     "dependencies": {
+        "@plug-ai/plug-ai-core": "0.0.1",
         "@types/node": "20.4.5",
         "@types/react": "18.2.17",
         "@types/react-dom": "18.2.7",
@@ -21,7 +22,6 @@
         "next": "13.4.12",
         "next-auth": "4.22.3",
         "next-swagger-doc": "0.4.0",
-        "plug-ai-core": "file:../plug-ai-core",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "typescript": "5.1.6",
