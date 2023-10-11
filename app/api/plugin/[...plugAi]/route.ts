@@ -2,7 +2,7 @@ import { pluginConfigPaths, getApiDocs, PluginConfigPath } from '@/ai-plugin';
 import { Plugin } from '@plug-ai/plug-ai-core';
 
 const aiplug = new Plugin({
-    configFilePath: pluginConfigPaths[PluginConfigPath.NO_AUTH],
+    configFilePath: pluginConfigPaths[PluginConfigPath.OAUTH],
     getDocs: getApiDocs,
 });
 
