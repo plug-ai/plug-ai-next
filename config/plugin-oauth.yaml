@@ -7,7 +7,7 @@ info:
     model: 'Model description of the test plugin.'
   logo_url: '/public/logo.png'
   contact_email: '@contact'
-  legal_info_url: '/legal'
+  legal_info_url: '/api/plugin/legal'
 auth:
   type: 'oauth'
   scope: 'read'
